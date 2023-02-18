@@ -1,0 +1,40 @@
+@import 'styles/colors';
+
+.dividerText {
+    color: #91a3b0;
+    font-size: 14px;
+}
+
+.SSOButtonText {
+    margin-left: 4px;
+}
+
+.authFormContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    width: 376px;
+}
+
+.highEmphasisText {
+    color: black;
+}
+
+.successfulRegistration {
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
